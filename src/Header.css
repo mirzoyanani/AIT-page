@@ -1,0 +1,40 @@
+.header{
+    border: none;
+    height:120px;
+    background:#f6f6f77f;
+}
+
+.logo{
+    width: 96px;
+    height: 96px;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+.headerItems{
+    width:900px;
+    height: 21px;
+    display: flex;
+    padding: 5.7vh 7.3vw;
+    align-items: center;
+    justify-content: space-between;
+ 
+}
+ul{
+    width:900px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:20px;
+}
+li{
+    cursor: pointer;
+   list-style: none;
+   font-size: 20px;
+   font-weight: 400;
+   font-family: MontserratArmLight;
+   color: #0e243c;
+}
+.languageLogo{
+    margin-left: 40px;
+    cursor: pointer;
+}
