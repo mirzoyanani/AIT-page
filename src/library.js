@@ -6,7 +6,9 @@
     aboutUs:'About as',
     blog:'Blog',
     contact:'Contact',
-    schollInfo:'Discover the endless possibilities of IT'
+    schollInfo:'Discover the endless possibilities of IT',
+    month:'month'
+
   },
   am: {
     home: "Գլխավոր",
@@ -15,7 +17,8 @@
     aboutUs:"Մեր մասին",
     blog:'Բլոգ',
     contact:'Կապ',
-    schollInfo:'Բացահայտիր IT անսահման հնարավորությունները'
+    schollInfo:'Բացահայտիր IT անսահման հնարավորությունները',
+    month:'ամիս'
   },
   ru: {
     home: "Основное",
@@ -24,7 +27,9 @@
      aboutUs:'O нас',
      blog:'Блог',
      contact:'Контакт',
-    schollInfo:'Откройте для себя безграничные возможности ИТ'
+    schollInfo:'Откройте для себя безграничные возможности ИТ',
+    month:'месяц'
+
   },
 };
 export default translations;

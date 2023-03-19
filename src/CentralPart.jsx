@@ -16,10 +16,8 @@ const CentralPart = () => {
         <button
         className='coursesbtn'
           tabIndex="0"
-          type="button"
-          data-v-f9e03932=""
+          type="button" 
         >
-          <span className="q-focus-helper"></span>
           <span className="q-btn__content text-center col items-center q-anchor--skip justify-center row">
             <span className="block">{translations[pageLanguage].courses}</span>
           </span>
