@@ -1,6 +1,6 @@
 import React from 'react'
 import { useContext } from 'react';
-import {LanguageContext} from './App.jsx';
+import LanguageContext from './languageContext';
 const Course = () => {
     const {pageLanguage,setPageLanguage} = useContext(LanguageContext);
   return (

@@ -5,8 +5,8 @@
     registration: "Registration",
     aboutUs:'About as',
     blog:'Blog',
-    contact:'Contact'
-
+    contact:'Contact',
+    schollInfo:'Discover the endless possibilities of IT'
   },
   am: {
     home: "Գլխավոր",
@@ -14,7 +14,8 @@
     registration:'Գրանցում',
     aboutUs:"Մեր մասին",
     blog:'Բլոգ',
-    contact:'Կապ'
+    contact:'Կապ',
+    schollInfo:'Բացահայտիր IT անսահման հնարավորությունները'
   },
   ru: {
     home: "Основное",
@@ -22,8 +23,8 @@
     registration: "Регистрация",
      aboutUs:'O нас',
      blog:'Блог',
-     contact:'Контакт'
-
+     contact:'Контакт',
+    schollInfo:'Откройте для себя безграничные возможности ИТ'
   },
 };
 export default translations;

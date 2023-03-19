@@ -1,0 +1,90 @@
+.main{
+    height: 558px;
+    /* border: none; */
+    width: 100%;
+   padding: 90px 0px;
+   display: flex;
+   background: #f8f8f8;
+   justify-content: space-between;
+}
+.InfoPart{
+    width: 562px;
+    height: 553px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.imgPart{
+    width: 553px;
+    height: 553px;
+}
+.imgPart > img{
+    width: 553px;
+    height: 553px;
+}
+
+.companyName{
+    font-family: Montserrat,sans-serif;
+    /* font-style: normal; */
+    font-size: 160px;
+    line-height: 160px;
+    background: -webkit-linear-gradient(45deg,#92fe9d,#00c9ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: .02em;
+    margin: 0 0 0 -6px;
+}
+.schoolName{
+    font-family: Montserrat,sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 75px;
+    margin-bottom: 64px;
+    color: #004a5d;
+}
+.schoolInfo{
+    font-family: MontserratArmLight;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #0e243c;
+    margin-bottom: 64px;
+}
+.coursesbtn{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: stretch;
+    position: relative;
+    outline: 0;
+    border: 0;
+    vertical-align: middle;
+    font-size: 14px;
+    line-height: 1.715em;
+    text-decoration: none;
+    color: inherit;
+    background: transparent;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    width: auto;
+    height: auto;
+    cursor: default;
+    padding: 4px 16px;
+    min-height: 2.572em;
+    line-height: 16px;
+    background: linear-gradient(95.99deg,#92fe9d 0%,#00c9ff 100%);
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 4px 16px #004a5d1a;
+    padding: 20px 80px;
+    border: none;
+    font-family: MontserratArmLight;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 140%;
+    color: #0e243c;
+}

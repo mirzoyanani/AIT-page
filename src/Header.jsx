@@ -1,10 +1,9 @@
 import React, { useState, useContext } from "react";
 import "./Header.css";
-import translations from './library.js';
- import { LanguageContext } from "./App";
-
+import translations from "./library.js";
+import LanguageContext from "./languageContext";
 const Header = () => {
-const {pageLanguage,setPageLanguage} = useContext(LanguageContext);
+  const { pageLanguage, setPageLanguage } = useContext(LanguageContext);
 
   return (
     <div className="header">
@@ -51,26 +50,3 @@ const {pageLanguage,setPageLanguage} = useContext(LanguageContext);
 };
 
 export default Header;
-
-// import React, { useState, useContext } from 'react';
-
-// const ThemeContext = React.createContext();
-
-// function ThemeProvider(props) {
-//   const [isDarkMode, setIsDarkMode] = useState(false);
-
-//   const toggleMode = () => {
-//     setIsDarkMode(!isDarkMode);
-//   };
-
-//   const value = {
-//     isDarkMode,
-//     toggleMode,
-//   };
-
-//   return (
-//     <ThemeContext.Provider value={value}>
-//       {props.children}
-//     </ThemeContext.Provider>
-//   );
-// }
