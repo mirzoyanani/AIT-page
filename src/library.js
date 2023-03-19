@@ -7,8 +7,10 @@
     blog:'Blog',
     contact:'Contact',
     schollInfo:'Discover the endless possibilities of IT',
-    month:'month'
-
+    month:'month',
+    branches:'Branches',
+    branchNameArarat:'C. Ararat',
+    branchNameErevan:'C .Yerevan'
   },
   am: {
     home: "Գլխավոր",
@@ -18,7 +20,10 @@
     blog:'Բլոգ',
     contact:'Կապ',
     schollInfo:'Բացահայտիր IT անսահման հնարավորությունները',
-    month:'ամիս'
+    month:'ամիս',
+    branches:'Մասնաճյուղեր',
+    branchNameArarat: 'Ք. Արարատ',
+    branchNameErevan:'Ք. Երևան'
   },
   ru: {
     home: "Основное",
@@ -28,8 +33,10 @@
      blog:'Блог',
      contact:'Контакт',
     schollInfo:'Откройте для себя безграничные возможности ИТ',
-    month:'месяц'
-
+    month:'месяц',
+    branches:'Филиалы',
+    branchNameArarat:'Г. Арарат',
+    branchNameErevan:'Г .Ереван'
   },
 };
 export default translations;
