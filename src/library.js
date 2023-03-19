@@ -19,7 +19,7 @@
   ru: {
     home: "Основное",
     courses: "Курсы",
-    registration: "регистрация",
+    registration: "Регистрация",
      aboutUs:'O нас',
      blog:'Блог',
      contact:'Контакт'

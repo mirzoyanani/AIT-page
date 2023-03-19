@@ -1,10 +1,11 @@
 import React, { useState, useContext } from "react";
 import "./Header.css";
 import translations from './library.js';
+ import { LanguageContext } from "./App";
 
+const Header = () => {
+const {pageLanguage,setPageLanguage} = useContext(LanguageContext);
 
-const Header = (props) => {
-  const [language, setLanguage] = useState("am" );
   return (
     <div className="header">
       <div className="headerItems">
@@ -14,35 +15,32 @@ const Header = (props) => {
         />
         <nav>
           <ul>
-            <li className="li ">{translations[language].home}</li>
-            <li className="li ">{translations[language].courses}</li>
-            <li className=" li">{translations[language].registration}</li>
-            <li className="li">{translations[language].aboutUs}</li>
-            <li className="li">{translations[language].blog}</li>
-            <li className="li">{translations[language].contact}</li>
+            <li className="li ">{translations[pageLanguage].home}</li>
+            <li className="li ">{translations[pageLanguage].courses}</li>
+            <li className=" li">{translations[pageLanguage].registration}</li>
+            <li className="li">{translations[pageLanguage].aboutUs}</li>
+            <li className="li">{translations[pageLanguage].blog}</li>
+            <li className="li">{translations[pageLanguage].contact}</li>
           </ul>
         </nav>
 
         <img
           onClick={() => {
-            setLanguage("en");
-            props.onLanguageChange(language);
+            setPageLanguage("en");
           }}
           className="languageLogo"
           src="https://bellart.am/images/english.svg"
         />
         <img
           onClick={() => {
-            setLanguage("ru");
-            props.onLanguageChange(language);
+            setPageLanguage("ru");
           }}
           className="languageLogo"
           src="https://bellart.am/images/russian.svg"
         />
         <img
           onClick={() => {
-            setLanguage("am");
-            props.onLanguageChange(language);
+            setPageLanguage("am");
           }}
           className="languageLogo"
           src="https://bellart.am/images/armenian.svg"
