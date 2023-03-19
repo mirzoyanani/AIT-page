@@ -6,6 +6,7 @@ import LanguageContext from "./languageContext";
 import translations from "./library";
 import CourseItem from "./Course";
 import Branch from "./Branch";
+import Recomendation from "./Recomendation";
 function App() {
   const [pageLanguage, setPageLanguage] = useState("am");
   return (
@@ -50,7 +51,32 @@ function App() {
               url="https://www.aitschool.am/images/office_ararat.jpg"
               countryName={translations[pageLanguage].branchNameArarat}
             />
-            <Branch  url ='https://www.aitschool.am/images/office_yerevan.jpeg'countryName={translations[pageLanguage].branchNameErevan} />
+            <Branch
+              url="https://www.aitschool.am/images/office_yerevan.jpeg"
+              countryName={translations[pageLanguage].branchNameErevan}
+            />
+          </div>
+        </div>
+        <div className="CoursesPart">
+          <p className="partName">{translations[pageLanguage].whatgiveyou}</p>
+          <div className="RecomendationItems  CourseItems">
+            <div className="recomendations">
+              <Recomendation 
+              title ={translations[pageLanguage].recomendTitle1}
+              mainRecomendation ={translations[pageLanguage].recomendTitle1Text}
+              />
+              <Recomendation 
+              title ={translations[pageLanguage].recomendTitle2}
+              mainRecomendation ={translations[pageLanguage].recomendTitle2Text}
+              />
+              <Recomendation 
+              title = {translations[pageLanguage].recomendTitle3}
+              mainRecomendation = {translations[pageLanguage].recomendTitle3Text}
+              />
+            </div>
+            <div className="recomendationPic">
+              <img src="https://www.aitschool.am/images/globus.png" alt="" />
+            </div>
           </div>
         </div>
       </LanguageContext.Provider>

@@ -1,0 +1,22 @@
+.recomendation{
+    width: 607px;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+align-items: center;
+padding: 32px;
+background-color: white;
+border-radius: 10px;
+}
+.title{
+    
+    font-size: 34px;
+    line-height: 29px;
+    margin-bottom: 36px;
+}
+.mainRecomendation{
+    font-family: MontserratArmLight;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 140%;
+}
